@@ -3,15 +3,16 @@ type Position = {
     rol: string; //"defender | filtrar | hacer goles"
 }
 
+// Aqui declaramos el tipado del dato
 type Jugador = {
-    nombre: string;
+    nombre: string; 
     club: string;
     dorsal: number;
     activo: boolean;
     position: Position;
 }
 
-// Plantilla inicial
+// Plantilla inicial 
 
 const jugador1: Jugador = {
     nombre: "James rodriguez",
